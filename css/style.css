@@ -6,3 +6,54 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 320px;
+  height: 495px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 hsl(0, 0%, 0%, 0.1);
+}
+
+.qr-code-text {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.qr-code-text h1 {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.qr-code-text p {
+  color: hsl(222, 6%, 55%);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.qr-code  {
+  width: 100%;
+  margin: 0 auto;
+}
